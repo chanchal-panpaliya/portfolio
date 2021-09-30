@@ -1,0 +1,74 @@
+.black_que_box{
+    /* z-index: 1;
+    position: absolute; */
+    /* top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px; */
+    background-color: #2d2f34;
+    font-size: 12;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 1.5rem; 
+   
+}
+
+.AddBoxIcon > .MuiSvgIcon-root{
+        display: block;
+        transition: 1s all;
+        z-index: 1;
+        position: relative;
+        color:rgb(197, 220, 0);
+        font-size:3rem;
+        left:45%
+    }
+
+    .AddBoxIcon > .MuiSvgIcon-root:hover{
+        transform: rotate(360deg);
+        color:rgb(253, 253, 252);
+    }
+
+    .AddBoxIcon_achivements > .MuiSvgIcon-root{
+        display: block;
+        transition: 1s all;
+        z-index: 1;
+        position: relative;
+        color:rgb(197, 220, 0);
+        font-size:3rem;
+        left:45%
+    }
+
+    .AddBoxIcon_achivements > .MuiSvgIcon-root:hover{
+        transform: rotate(360deg);
+        color:rgb(253, 253, 252);
+    }
+
+    .AddBoxIcon_videoediting > .MuiSvgIcon-root{
+        display: block;
+        transition: 1s all;
+        z-index: 1;
+        position: relative;
+        color:rgb(0, 192, 204);
+        font-size:3rem;
+        left:45%
+    }
+
+    .AddBoxIcon_videoediting > .MuiSvgIcon-root:hover{
+        transform: rotate(360deg);
+        color:rgb(253, 253, 252);
+    }
+
+    .AddBoxIcon_certification > .MuiSvgIcon-root{
+        display: block;
+        transition: 1s all;
+        z-index: 1;
+        position: relative;
+        color:rgb(242, 0, 74);
+        font-size:3rem;
+        left:45%
+    }
+
+    .AddBoxIcon_certification > .MuiSvgIcon-root:hover{
+        transform: rotate(360deg);
+        color:rgb(253, 253, 252);
+    }

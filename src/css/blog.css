@@ -1,0 +1,231 @@
+
+
+.blog_heading_box{
+   /* margin-top: 10%; */
+    margin-left: 10%;
+}
+
+.blog_heading{
+    font-size: 3rem;
+    font-family: 'Sans-serif';
+    padding: 2rem 0;
+    position: relative;
+}
+
+/* .calendarNav {
+    position: fixed;
+    top: 30px;
+    left: 7.14%;
+    width: 14.28%;
+    height: calc(100% - 60px);
+    z-index: 2;
+} */
+
+/* .calendarNav {
+    position: fixed;
+    top: 0vh;
+    left: 12.14vw;
+    width: 14.28vw;
+    height: calc(100% - 60px);
+    z-index: 2;
+} */
+
+.calendarNav {
+    position: fixed;
+    top: 4vh;
+    left: 5vw;
+    width: 14.28vw;
+    height: calc(100% - 60px);
+    z-index: 2;
+}
+
+.calendarNav__items{
+
+        height: 100%;
+        margin-left: 1px;
+        background-image: url('../img/slider/download.png');
+        background-repeat: repeat-y;
+  
+}
+
+.calendarNav__item--hide{
+    display: none;
+}
+
+.calendarNav__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: NoeDisplay-Medium,Sans-serif;
+    color: #fff;
+    font-size: 17px;
+    padding: 1px 0 0 28px;
+    margin-top: -9px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.calendarNav__item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 17px;
+    height: 1px;
+    background-color: hsla(0,0%,100%,.15);
+}
+
+.calendarNav__current{    
+    display: block;
+    position: fixed;
+    top: 30px;
+    left: 4.8%;
+    width: 5vw;
+    z-index: 2;
+}  
+
+/* .calendarNav__current {
+    display: block;
+    position: absolute;
+    top: 1vh;
+    left: 9.7vw;
+    width: 14.28vw;
+    height: calc(100% - 60px);
+    z-index: 2;
+} */
+
+
+.MuiSlider-thumb .MuiSlider-thumbColorPrimary{
+    color: aliceblue;
+}
+
+/**/
+
+ /* .MuiSlider-root .MuiSlider-colorPrimary{
+    display: block;
+    orientation:vertical;
+    height: 100%;
+    margin-top: -230%;
+    margin-left: -417%;
+}  */
+
+ .calendarNav__current {
+    position: absolute;
+    top: 0;
+    left: 3vw;
+    padding: 0 15px 0 6px;
+    height: 2.6vh;
+    line-height: 2.6vh;
+    background-color: #fff;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-transform: uppercase;
+    /* transform : matrix(1, 0, 0, 1, 0, 157.743);
+    transition: background-color .3s ease; */
+} 
+
+ .calendarNav__current:before {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    content: "";
+    width: 0;
+    height: 0;
+    transition: border-color .3s ease;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+    border-width: 9.5px 15px 10px 0;
+} 
+
+.calendarNav__current:focus:before, .calendarNav__current:hover:before {
+    border-color: transparent #faf7f7 transparent transparent;
+}
+
+
+/**/
+.blogList {
+    z-index: 1;
+    position: relative;
+}
+
+.blogList__items {
+    margin-left: 30%;
+}
+
+.blogList__items {
+    position: relative;
+    margin-left: 35.7%;
+    background-color: #fff;
+}
+.blogList__items:before {
+    padding-top: 1px;
+}
+.blogList__items:after, .blogList__items:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+}
+
+.calendarNav_Datelink{
+    display: block;
+    position: unset;
+    width: fit-content;
+    height: fit-content;
+}
+
+/*------ comman------------*/
+
+.blog_link_name{
+    text-decoration: none;
+    color: #fff;
+}
+
+.blogList_heading_container , .blogList_sub_date{
+   color: black;
+}
+
+/*------------------*/
+
+.blog_content_container{
+    padding-left: 5vw;
+    padding-right: 4vw;
+}
+
+
+.blog_content_icon_facebook ,.blog_content_icon_twitte ,.blog_content_icon_instagram{
+   padding-left: 2vw;
+   padding-right: 2vw;
+   padding-top: 2vw;
+}
+
+.blog_content_back_button{
+    display: block;
+    float: right;
+    padding-bottom: 10vh;
+    /* animation: padding-left 1s rtl ease-in; */
+}
+
+.blog_content_ArrowBackIcon:hover{
+   width: 2rem;
+}
+
+.blog_content_icon_facebook:hover{
+    color: blue;
+}
+
+.blog_content_icon_twitter:hover{
+    color: skyblue;
+}
+
+.blog_content_icon_instagram:hover{
+    color: lightpink;
+}

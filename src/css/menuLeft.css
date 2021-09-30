@@ -1,0 +1,122 @@
+
+/* .menu__side {
+    background: rgb(4, 4, 26);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 7.14vw;
+} */
+
+.menu__logoSpace {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 20vw;
+}
+/* 
+.menu__logo {
+    position: absolute;
+    display: block;
+    color: inherit;
+    width:12vw;
+    margin-top: 15vh;
+    margin-left: -4.5vw;
+    text-decoration: none;
+    transform: translate(1vw,1vh) rotate(-91deg);
+    font-size: 2rem;
+    color: #fff;
+    font-family:'NoeDisplay-Medium','Sans-serif';
+} */
+
+
+.menu__logo {
+    /* position: absolute; */
+    display: inline-flex;
+    color: inherit;
+    width:max-content;
+    margin-top: 15vh;
+    margin-left: -71px;
+    text-decoration: none;
+    transform: translate(1vw,1vh) rotate(-91deg);
+    font-size: 2rem;
+    color: #fff;
+    font-family:'NoeDisplay-Medium','Sans-serif';
+    
+}
+
+.menu__socialItems {
+    display: block;
+    color: #979799;
+    position: fixed;
+    /* padding-bottom: 30%; */
+    width: 100vw;
+    bottom:5vh;
+    margin-left: -71px;
+}
+
+.menu__socialLink {
+    /* position: relative; */
+    /* display: block; */
+    /* width: 26vw;
+    height: 26vh; */
+    /* margin: 0 auto; */
+    color: inherit;
+    transition: color .2s;
+}
+
+.menu__socialIcon {
+    width: 16vw;
+    height: 1vh;
+    /* position: absolute; */
+    margin-top: 4vh;
+    /* left: 10%; */
+    margin-left: 1.5vw;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 1rem;
+    /* align-items: center; */
+}
+
+/* @media screen and (max-width: 600px) {
+   .menu__logo{
+       width: max-content;
+       margin-left: -16vw;
+   }
+  } */
+
+
+  /*-----menu left -------*/
+
+  .nav-menu-close{
+    float: right;
+    position: absolute;
+    right: 2vw;
+    top:5vh;
+    transition: 1s all;
+  }
+
+  .nav-menu-close:hover{
+    /* transition: 0.9s; */
+    /* transform: rotateY(180deg); */
+    transform: rotate(360deg);
+  }
+
+  .Contact-Us{
+      position: absolute;
+      float: right;
+      left: 60%;
+      top:22vh;
+      font-family:'NoeDisplay-Medium','Sans-serif';
+      font-size: 2rem;
+      width: 55%;
+      height: auto
+  }
+
+  .Contact-Us-data{
+    font-size: 1rem;  
+    left:30%;
+    position: relative;
+    padding-top: 10vh;
+  }

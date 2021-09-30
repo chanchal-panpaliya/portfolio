@@ -1,0 +1,137 @@
+
+
+/*--------------------- */
+    
+.background__images{
+   overflow: hidden;
+   display: inline;
+   background-size: cover;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 0;
+}
+
+  .lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100vw;
+    background-color: #191a1d;
+    opacity: 0.9;
+    /* z-index: 0; */
+  }
+  
+  .bgLines__ray--r ,
+  .bgLines__ray--b ,
+  .bgLines__ray--g {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+  }
+  
+  .bgLines__ray--r::after ,
+  .bgLines__ray--b::after ,
+  .bgLines__ray--g::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    top: -50%;
+    left: 0;
+            animation: drop 7s 0s infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+  }
+
+  .bgLines__ray--r::after{
+    background-color: #f2004a;
+  }
+
+  
+  .bgLines__ray--b::after{
+    background-color: #00c0cc;
+  }
+
+  .bgLines__ray--g::after{
+    background-color: #c5dc00;
+  }
+
+
+
+  .bgLines__ray--r:nth-child(1) {
+    margin-left: 5%;
+  }
+  .bgLines__ray--r:nth-child(1)::after {
+            animation-delay: 2s;
+  }
+
+
+  .bgLines__ray--b:nth-child(2) {
+    margin-left: 20%;
+  }
+  .bgLines__ray--b:nth-child(2)::after {
+            animation-delay: 4s;
+  }
+
+  .bgLines__ray--g:nth-child(3) {
+    margin-left: 35%;
+  }
+  .bgLines__ray--g:nth-child(3)::after {
+            animation-delay: 2.5s;
+  }
+
+  .bgLines__ray--r:nth-child(4) {
+    margin-left: 50%;
+  }
+  .bgLines__ray--r:nth-child(4)::after {
+            animation-delay: 4s;
+  }
+
+  .bgLines__ray--b:nth-child(5) {
+    margin-left: 65%;
+  }
+  .bgLines__ray--b:nth-child(5)::after {
+            animation-delay: 2s;
+  }
+
+  .bgLines__ray--g:nth-child(6) {
+    margin-left: 80%;
+  }
+  .bgLines__ray--g:nth-child(6)::after {
+            animation-delay: 4s;
+  }
+
+  .bgLines__ray--r:nth-child(7) {
+    margin-left: 95%;
+  }
+  .bgLines__ray--r:nth-child(7)::after {
+            animation-delay: 2s;
+  }
+  
+
+  @-webkit-keyframes drop {
+    0% {
+      top: -50%;
+    }
+    100% {
+      top: 110%;
+    }
+  }
+  
+  @keyframes drop {
+    0% {
+      top: -50%;
+    }
+    100% {
+      top: 110%;
+    }
+  }
+ 

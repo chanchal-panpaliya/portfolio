@@ -1,0 +1,38 @@
+  
+  .nav-text {
+    /* content: attr(data-value); */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 60px;
+    z-index: 1;
+  }
+  
+  .nav-text a {
+    text-decoration: none;
+    color: #fcf9f9;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    font-family: 'NoeDisplay-Medium','Sans-serif';
+  }
+  
+  .nav-text a:hover {
+    font-size: 2.5rem;
+  }
+  
+  .nav-menu-items {
+    width: auto;
+    /* margin-left: 20%; */
+    left:20%;
+    margin-top: 10%;
+    position:absolute;
+  }
+  
+  span {
+    margin-left: 10px;
+  }
+
+  /*----------------------------------------*/
+
+

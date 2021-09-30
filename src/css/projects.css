@@ -1,0 +1,128 @@
+.Project_Mark1 ,.Project_Mark2 ,.Project_Mark3  ,.Project_Mark4 ,.Project_Mark5, .Project_Mark6 ,.Project_Mark7 ,.Project_Mark8 ,.Project_Mark9 ,.Project_Mark10 ,.Project_Mark11 ,.Project_Mark12{
+    width:14.9vw;
+    height:55vh;
+    transition:top 0.4s , background-position 12s cubic-bezier(.4,.74,1,1);
+    background-size: cover;
+    background-repeat:no-repeat;
+    text-align: center;
+}
+
+
+.Project_Mark1{
+    background:linear-gradient( rgba(255, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.5)100%),url(../img/scrolling_img/mark1.png);
+}
+
+.Project_Mark2{
+    background:linear-gradient( rgba(255, 255, 0, 0.8) 100%, rgba(0, 0, 0, 0.5)100%),url(../img/scrolling_img/mark2.png);
+}
+
+.Project_Mark3{
+    background:linear-gradient( rgba(82, 121, 82, 0.8) 100%, rgba(0, 0, 0, 0.5)100%),url(../img/scrolling_img/bananatalk.png);
+}
+
+.Project_Mark4{
+    background:linear-gradient( rgba(123,104,238, 0.8) 100%, rgba(0, 0, 0, 0.5)100%),url(../img/scrolling_img/swedishtalk.png);
+}
+
+.Project_Mark5{
+    background:linear-gradient( rgba(199,21,133, 0.8) 100%, rgba(0, 0, 0, 0.5)100%),url(../img/scrolling_img/emoji.png);
+}
+
+.Project_Mark6{
+    background:linear-gradient( rgba(60,179,113, 0.8) 100%, rgba(0, 0, 0, 0.5)100%),url(../img/scrolling_img/movie.png);
+}
+.Project_Mark7{
+    background:linear-gradient( rgba(0, 128, 255, 0.8) 100%, rgba(0, 0, 0, 0.5)100%),url(../img/scrolling_img/cashregistermanager.png);
+}
+.Project_Mark8{
+    background:linear-gradient( rgba(255, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(../img/scrolling_img/birthdayluckynumber.png);
+}
+.Project_Mark9{
+    background:linear-gradient( rgba(116, 116, 76, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(../img/scrolling_img/funwithtriangles.png);
+}
+.Project_Mark10{
+    background:linear-gradient( rgba(218,112,214, 0.8) 100%, rgba(0, 0, 0, 0.5)100%),url(../img/scrolling_img/birthdaypalindrome.png);
+}
+.Project_Mark11{
+    background:linear-gradient( rgba(173,255,47, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(../img/scrolling_img/stockprofitloss.png);
+}
+.Project_Mark12{
+    background:linear-gradient( rgba(25,25,112, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(../img/projects/banner.jpg);
+}
+
+.Project_Mark1:hover ,
+.Project_Mark2:hover ,
+.Project_Mark3:hover ,
+.Project_Mark4:hover ,
+.Project_Mark5:hover ,
+.Project_Mark6:hover ,
+.Project_Mark7:hover ,
+.Project_Mark8:hover ,
+.Project_Mark9:hover ,
+.Project_Mark10:hover ,
+.Project_Mark11:hover ,
+.Project_Mark12:hover{
+    top:-71vh;
+    background-position: 100% 50%;
+    opacity: 1;
+}
+
+.Project_Mark1_heading ,.Project_Mark1_heading_content ,.Project_Mark1_heading_content-buttonChip 
+,.Project_Mark1_heading_content-button-Live,.Project_Mark1_heading_content-button-ViewSourceCode{
+    justify-content :center;
+    display: block;
+    position: relative;
+    top:20%;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding-bottom: 2vh;
+}
+
+.Project_Mark1_heading_content{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.Project_Mark1_heading_content-button-ViewSourceCode{
+    padding-bottom: 6vh;
+}
+.Project_Mark1_heading_content-button-Live{
+    padding-top: 7vh;
+}
+
+.button-Live ,.button-SOURCE{
+   color: white;
+   text-decoration: none;
+}
+
+.button-Live:hover ,
+.button-SOURCE:hover{
+    background-color: white;
+ }
+
+ .Project_Mark1_heading_content-button-Live>.MuiButton-outlined{
+   border: none;
+ }
+
+ .Project_Mark1_heading_content-button-ViewSourceCode>.MuiButton-root{
+     color: white;
+ }
+
+ .link1{
+     text-decoration: none;
+     color: white;
+ }
+
+ .alink{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+  
+  
+
+
+

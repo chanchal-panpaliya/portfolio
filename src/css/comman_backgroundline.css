@@ -1,0 +1,256 @@
+
+   /* ------------------------------------  */
+
+   .wrapper {
+    /* position: relative; */
+    margin: 0 auto;
+    z-index: 2;
+}
+
+
+    /* .headBox--darkBg {
+        background-color: #2d2f34;
+    } */
+
+    .headBox {
+        /* position: relative; */
+        overflow: hidden;
+        height: auto;
+    }
+
+    .headBox__bgLines, .headBox__strips {
+        /* position: absolute; */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+
+    .bgLines {
+        /* position: relative; */
+        height: 100%;
+        overflow: hidden;
+    }
+
+/*------*/
+    .bgLines__line1 {
+        display: block;
+        width: 1px;
+        height:100vh;
+        position: fixed;
+        top: 0;
+        left: 5%;
+        background-color:hsla(0,0%,96.1%,.15);
+        z-index: 0;
+    }
+/*------*/
+    .bgLines__line2 {
+        display: block;
+        width: 1px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 20%;
+        background-color: hsla(0,0%,96.1%,.15);
+    }
+
+/*------*/
+    .bgLines__line3 {
+        display: block;
+        width: 1px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 35%;
+        background-color: hsla(0,0%,96.1%,.15);
+    }
+
+    /*------*/
+    .bgLines__line--alpha4_1 {
+        background-color: rgba(240, 24, 24, 0.911);
+        display: block;
+        width: 1px;
+        height: 3%;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+    }
+
+    /* .bgLines__line--alpha4_2 {
+        background-color: #00c0cc;
+        display: block;
+        width: 1px;
+        height: 3%;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+    } */
+
+    /* .bgLines__line--alpha4_3 {
+        background-color: rgba(240, 24, 24, 0.911);
+        display: block;
+        width: 1px;
+        height: 3%;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+    } */
+
+/* 
+    .bgLines__line--alpha4_1_continue {
+        background-color: #c5dc00;
+        display: block;
+        width: 1px;
+        height: 3%;
+        position: absolute;
+        top: 110%;
+        left: 50%;
+    } */
+
+
+    .bgLines__line4 {
+        display: block;
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        background-color: hsla(0,0%,96.1%,.15);
+    }
+
+    /*------*/
+
+    .bgLines__line5 {
+        display: block;
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 65%;
+        background-color: hsla(0,0%,96.1%,.15);
+    }
+
+    .bgLines__line--alpha5 {
+        background-color: #00c0cc;
+        display: block;
+        width: 1px;
+        height: 15%;
+        position: absolute;
+        top: 41%;
+        left: 65%;
+    }
+
+
+    .bgLines__line--alpha5_1{
+        background-color: #c5dc00;
+        display: block;
+        width: 1px;
+        height: 3%;
+        position: absolute;
+        top: 41%;
+        left: 65%; 
+    }
+
+    /* .bgLines__line--alpha5_2{
+        background-color: rgba(240, 24, 24, 0.911);
+        display: block;
+        width: 1px;
+        height: 3%;
+        position: absolute;
+        top: 67%;
+        left: 65%; 
+    } */
+
+    /* .bgLines__line--alpha5_3{
+        background-color: #00c0cc;
+        display: block;
+        width: 1px;
+        height: 3%;
+        position: absolute;
+        top: 87%;
+        left: 65%; 
+    } */
+
+    /* .bgLines__line--alpha5_1_continue{
+        background-color: rgba(240, 24, 24, 0.911);
+        display: block;
+        width: 1px;
+        height: 3%;
+        position: absolute;
+        top: 101%;
+        left: 65%; 
+    } */
+
+       /*------*/
+       .bgLines__line--alpha6 {
+        background-color: #c5dc00;
+        display: block;
+        width: 1px;
+        height: 15%;
+        position: absolute;
+        top: 40%;
+        left: 80%;
+    }
+
+    .bgLines__line6 {
+        display: block;
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 80%;
+        background-color: hsla(0,0%,96.1%,.15);
+    }
+
+    /* .bgLines__line--alpha6_1{
+        background-color: #00c0cc;
+        display: block;
+        width: 1px;
+        height: 3%;
+        position: absolute;
+        top: 40%;
+        left: 80%;
+    } */
+
+    .bgLines__line--alpha6_2{
+        background-color: #00c0cc;
+        display: block;
+        width: 1px;
+        height: 3%;
+        position: absolute;
+        top: 60%;
+        left: 80%;
+    }
+
+    /*------*/
+       .bgLines__line--alpha7 {
+        background-color: rgba(240, 24, 24, 0.911);
+        display: block;
+        width: 1px;
+        height: 10%;
+        position: absolute;
+        top: 20%;
+        left: 95%;
+    }
+
+    .bgLines__line7 {
+        display: block;
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 95%;
+        background-color: hsla(0,0%,96.1%,.15);
+    }
+
+    .bgLines__line--alpha7_1{
+        background-color: rgba(240, 24, 24, 0.911);
+        display: block;
+        width: 1px;
+        height: 3%;
+        position: absolute;
+        top: 90%;
+        left: 95%; 
+    }
+
